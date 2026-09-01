@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Portfolio of Himanshi Kataria, M.Des student at NIFT Gandhinagar.">
+
+    <title>Himanshi Kataria | Designer Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            HIMANSHI<span>.</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open navigation menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </header>
+
+
+    <!-- ================= HOME / HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    M.DES STUDENT · DESIGNER · RESEARCHER
+                </p>
+
+                <h1>
+                    Designing meaningful
+                    <span>experiences</span> for a
+                    changing world.
+                </h1>
+
+                <p class="hero-description">
+                    I'm Himanshi Kataria, a multidisciplinary designer
+                    exploring sustainable design, branding, trend research,
+                    service design and cultural narratives.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <!-- Replace this div with your profile image later -->
+
+                <div class="profile-card">
+
+                    <div class="profile-image">
+                        <span>HK</span>
+                    </div>
+
+                    <div class="profile-info">
+
+                        <p>Currently studying at</p>
+
+                        <h3>NIFT Gandhinagar</h3>
+
+                        <span>Master of Design · 2025–2027</span>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-tag tag-one">
+                    Sustainable Design
+                </div>
+
+                <div class="floating-tag tag-two">
+                    Design Research
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about" id="about">
+
+            <div class="section-label">
+                <span>01</span>
+                ABOUT ME
+            </div>
+
+
+            <div class="about-grid">
+
+                <div>
+
+                    <h2>
+                        Curious by nature.
+                        <br>
+                        <em>Designer by practice.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p>
+                        Hi, I'm Himanshi, a design student at the National
+                        Institute of Fashion Technology (NIFT), Gandhinagar,
+                        currently pursuing a Master of Design.
+                    </p>
+
+                    <p>
+                        My interests lie at the intersection of sustainable
+                        design, trend research and forecasting, branding,
+                        service design, traditional crafts and cultural
+                        narratives.
+                    </p>
+
+                    <p>
+                        I enjoy using research, visual storytelling and
+                        design thinking to create meaningful, responsible
+                        and user-centered design solutions.
+                    </p>
+
+
+                    <div class="about-stats">
+
+                        <div>
+                            <h3>02+</h3>
+                            <p>Design Degrees</p>
+                        </div>
+
+                        <div>
+                            <h3>10+</h3>
+                            <p>Design Projects</p>
+                        </div>
+
+                        <div>
+                            <h3>05+</h3>
+                            <p>Design Domains</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="section education-section" id="education">
+
+            <div class="section-label">
+                <span>02</span>
+                EDUCATION
+            </div>
+
+
+            <h2 class="section-title">
+                Learning through
+                <em>design & exploration.</em>
+            </h2>
+
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <div class="timeline-year">
+                        2025 — 2027
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-status">
+                            Ongoing
+                        </span>
+
+                        <h3>Master of Design (M.Des)</h3>
+
+                        <p>
+                            National Institute of Fashion Technology,
+                            Gandhinagar
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <div class="timeline-year">
+                        2021 — 2024
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>B.Sc Fashion Design</h3>
+
+                        <p>
+                            Northern India Institute of Fashion Technology,
+                            Mohali
+                        </p>
+
+                        <span class="grade">
+                            CGPA / Score: 8.15
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-label light-label">
+                <span>03</span>
+                SKILLS & EXPERTISE
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skills-intro">
+
+                    <h2>
+                        A multidisciplinary
+                        <em>design approach.</em>
+                    </h2>
+
+                    <p>
+                        Combining research, strategy and visual thinking
+                        to explore complex design problems.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-list">
+
+                    <div class="skill-item">
+                        <span>01</span>
+                        <h3>Design Research</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>02</span>
+                        <h3>Trend Forecasting</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>03</span>
+                        <h3>Design Thinking</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>04</span>
+                        <h3>Craft Research & Design</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>05</span>
+                        <h3>Interaction Design</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>06</span>
+                        <h3>Branding & Strategy</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>07</span>
+                        <h3>Sustainable Systems</h3>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>08</span>
+                        <h3>Service Design</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-label">
+                <span>04</span>
+                SELECTED PROJECTS
+            </div>
+
+
+            <div class="projects-heading">
+
+                <h2>
+                    Exploring ideas through
+                    <em>design.</em>
+                </h2>
+
+                <p>
+                    A selection of academic and independent projects across
+                    sustainability, service design, branding, interface design
+                    and traditional crafts.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card large">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-image project-image-one">
+                        <span>SUSTAINABILITY</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Sustainable Systems
+                        </p>
+
+                        <h3>
+                            Ahmedabad Water Supply System —
+                            Heritage Well
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-image project-image-two">
+                        <span>RESEARCH</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Trend Research & Forecasting
+                        </p>
+
+                        <h3>
+                            Textile Print Technologies
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">03</div>
+
+                    <div class="project-image project-image-three">
+                        <span>CIRCULARITY</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Design Thinking
+                        </p>
+
+                        <h3>
+                            Textile Waste Management
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">04</div>
+
+                    <div class="project-image project-image-four">
+                        <span>SERVICE</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Service Design
+                        </p>
+
+                        <h3>
+                            Ahmedabad Metro Station Experience
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">05</div>
+
+                    <div class="project-image project-image-five">
+                        <span>BRANDING</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Branding & Communication
+                        </p>
+
+                        <h3>
+                            Beauty Industry —
+                            Forest Essentials
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">06</div>
+
+                    <div class="project-image project-image-six">
+                        <span>INTERFACE</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Interface Design
+                        </p>
+
+                        <h3>
+                            Travel & Tourism —
+                            MakeMyTrip
+                        </h3>
+
+                        <a href="#" class="project-link">
+                            View Case Study ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= UNDERGRAD PROJECTS ================= -->
+
+        <section class="section undergraduate-section">
+
+            <div class="section-label">
+                <span>05</span>
+                UNDERGRADUATE WORK
+            </div>
+
+
+            <div class="undergrad-grid">
+
+                <div>
+
+                    <h2>
+                        Foundation in
+                        <em>fashion & craft.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="undergrad-list">
+
+                    <div class="undergrad-item">
+                        <span>01</span>
+                        <h3>Zero Waste Fashion</h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>02</span>
+                        <h3>Upcycled Fashion</h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>03</span>
+                        <h3>Rangrej Collection</h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>04</span>
+                        <h3>Elements of Design</h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>05</span>
+                        <h3>Craft Documentation</h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>06</span>
+                        <h3>
+                            Metal Karigari of Chamba
+                        </h3>
+                    </div>
+
+                    <div class="undergrad-item">
+                        <span>07</span>
+                        <h3>
+                            Leather Craft of Kutch
+                        </h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section class="section experience-section" id="experience">
+
+            <div class="section-label">
+                <span>06</span>
+                EXPERIENCE
+            </div>
+
+
+            <div class="experience-card">
+
+                <div class="experience-top">
+
+                    <div>
+
+                        <p class="experience-type">
+                            INTERNSHIP
+                        </p>
+
+                        <h2>
+                            GlobalWash Creation
+                            <br>
+                            Private Limited
+                        </h2>
+
+                    </div>
+
+                    <div class="experience-location">
+
+                        Sonipat, Haryana
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-details">
+
+                    <p>
+                        Worked on denim apparel development for PacSun,
+                        supporting the design development process from
+                        concept exploration to prototype development.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Assisted in developing denim apparel concepts.
+                        </li>
+
+                        <li>
+                            Presented design, wash and dyeing options for
+                            cargo pants.
+                        </li>
+
+                        <li>
+                            Supported prototype development based on client
+                            requirements and feedback.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">
+                    LET'S CREATE SOMETHING MEANINGFUL
+                </p>
+
+                <h2>
+                    Have an idea?
+                    <br>
+                    <em>Let's talk.</em>
+                </h2>
+
+
+                <a
+                    href="mailto:himanshikataria723@gmail.com"
+                    class="contact-email">
+
+                    himanshikataria723@gmail.com
+                    <span>↗</span>
+
+                </a>
+
+
+                <div class="contact-info">
+
+                    <div>
+                        <span>Phone</span>
+                        <p>+91 82099 42696</p>
+                    </div>
+
+                    <div>
+                        <span>Location</span>
+                        <p>Rajasthan, India</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            © <span id="year"></span>
+            Himanshi Kataria
+        </p>
+
+        <p>
+            Designed & Built with curiosity.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
